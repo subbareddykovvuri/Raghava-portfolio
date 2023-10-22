@@ -69,7 +69,9 @@ body{
 	margin-left: auto;
 	text-align: center;
 }
-
+#about{
+	background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+}
 
 #skills{
 	max-width:100%;
@@ -81,10 +83,12 @@ body{
 #certifications{
 	max-width: 100%;
 	background-color: #00002D;
+	background-image: linear-gradient( 135deg, #3B2667 20%, #BC78EC 100%);
 	color: white;
 }
 #contact{
 	background-color: #E5ECFB;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
 
@@ -100,8 +104,9 @@ body{
 			/*background: rgb(237,238,224);
 			background: linear-gradient(176deg, rgba(237,238,224,1) 0%, rgba(237,238,224,1) 93%);
 			background-image: url('https://coolbackgrounds.io/images/backgrounds/index/gulf-dec0ccde.svg');
-			background: url("background.svg");*/
-			background-image: url("background.png");
+			background: url("background.svg");
+			background-image: radial-gradient( circle 700px at 95% 90%,  rgba(62,147,252,0.57) 100%, rgba(255,255,255,0) 0% );
+			background-image: url("background.png");*/
 			background-repeat: no-repeat;
 			background-size: cover;
 			
@@ -277,24 +282,73 @@ body{
 }
 
 
+#projects{
+	
+	background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
 
+}
+#projects_inner{
+	max-width: 1024px;
+	background-color: rgba(0,0,0,.1);
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 11px 34px rgba(0,0,0,.1);
+}
 
+#project_card{
+	max-width: 650px;
+	padding: 20px;
+	/*background-color: rgba(0,0,0,.1);*/
+	background-color: skyblue;
+	border-radius: 15px;
+	display: inline-block;
+	margin: 20px;
+	box-shadow: 0px 11px 34px rgba(135,206,235,.5);
+}
+
+#project_card img{
+	max-width: 600px;
+	border-radius: 10px 10px 0px 0px;
+}
+#project_card h2{
+	font-size:20px;
+	color: white;
+	font-weight: 600;
+	background-color: skyblue;
+	padding: 20px;
+	border-radius: 10px 10px 0px 0px;
+	margin: 0px;
+
+}
+#project_card p{
+	font-size: 18px;
+	color: black;
+	font-weight: 500;
+	background-color:  rgba(255,255,255,0.6);
+	padding: 15px;
+	border-radius: 0px 0px 10px 10px;
+	text-align: left;
+}
 
 #contact_inner{
-	width: 1024px;
+	max-width: 1200px;
 	background-color: white;
-	display: flex;
 	border-radius: 15px;
-	box-shadow: 0px 11px 34px rgba(0,0,0,.5);
+	box-shadow: 0px 11px 34px rgba(0,0,0,.4);
 	padding: 30px;
+	display:flex;
 }
 #contact_img_div{
-	width: 500px;
+	max-width: 500px;
+	display: inline-block;
 }
 #contact_img{
 	width: 400px;
+	
 }
+
 .form{
+	display: inline-block;
 	max-width: 350px;
 	margin-right: auto;
 	margin-left: auto;
